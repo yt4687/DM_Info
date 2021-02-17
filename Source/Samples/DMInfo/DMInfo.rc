@@ -1,0 +1,119 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 441, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "スターデジオ楽曲情報"
+FONT 10, "ＭＳ 明朝", 400, 0, 0x80
+BEGIN
+    RTEXT           "チャンネル番号：",-1,0,6,68,8
+    EDITTEXT        IDC_CHNUM,72,6,366,8,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "チャンネル名：",-1,0,18,68,8
+    EDITTEXT        IDC_CHNAME,72,18,366,8,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "曲名：",-1,0,30,68,8
+    EDITTEXT        IDC_TITLE,72,30,366,18,ES_MULTILINE | ES_READONLY | NOT WS_BORDER
+    RTEXT           "アーティスト名：",-1,0,54,68,8
+    EDITTEXT        IDC_ARTIST,72,54,366,18,ES_MULTILINE | ES_READONLY | NOT WS_BORDER
+    RTEXT           "曲の総時間：",-1,0,78,68,8
+    EDITTEXT        IDC_DURATION,72,78,366,8,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    RTEXT           "経過時間：",-1,0,90,68,8
+    EDITTEXT        IDC_ELAPSED,72,90,366,8,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 396
+        BOTTOMMARGIN, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

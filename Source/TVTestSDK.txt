@@ -1,0 +1,72 @@
+
+
+    TVTest プラグイン SDK
+
+
+◆ はじめに
+
+  TVTest 用のプラグインを作成するためのヘッダとサンプルです。
+  ヘッダがドキュメント代わりになっていますので、プラグインの仕様については
+  TVTestPlugin.h ファイルを参照してください。
+
+  サンプルのソリューション(Samples.sln)とプロジェクトは Visual Studio 2010 用
+  です。
+
+
+◆ サンプル
+
+  Samples フォルダに以下のサンプルが含まれています。
+
+  ・AutoSnapShot
+  　一定間隔で画面キャプチャを行う
+
+  ・DiskRelay
+  　録画時に空き容量が少なくなった時、別のディスクに保存する
+
+  ・Equalizer
+  　イコライザー
+
+  ・GamePad
+  　ゲームパッドで操作できるようにする
+
+  ・HDUSRemocon
+  　HDUSリモコンで操作できるようにする
+
+  ・LogoList
+  　局ロゴの一覧を表示する
+
+  ・MemoryCapture
+  　映像から画像を取り込む
+
+  ・MiniProgramGuide
+  　小さい番組表を表示する
+
+  ・PacketCounter
+  　パケットの数をカウントする項目をステータスバーに追加する
+
+  ・SignalGraph
+  　信号レベルとビットレートをグラフ表示する
+
+  ・SleepTimer
+  　指定時間後にスリープする
+
+  ・SpectrumAnalyzer
+  　簡単なスペクトラムアナライザーを表示する
+
+  ・TSInfo
+  　ストリームの情報を表示する
+
+  ・TunerPanel
+  　チューナー/チャンネルを選択するパネルを表示する
+
+
+◆ ライセンス
+
+  ・ヘッダ及びサンプルは自由に利用・改変・再配布できます。
+  ・サンプルの著作権は主張しません。
+  ・Samples\SpectrumAnalyzer にある fft4g.c は大浦拓哉氏に著作権があります。
+    ライセンスも大浦氏の定めたものに従ってください。
+    Copyright Takuya OOURA, 1996-2001
+    http://www.kurims.kyoto-u.ac.jp/~ooura/fft-j.html
+
+
