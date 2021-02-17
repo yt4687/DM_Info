@@ -1,39 +1,33 @@
-DM_Info�̃~���[�ł��B�i��Ɏ����p�j  
-�\�[�X�t�@�C���̍ė��p�̏����͕K���e�t�@�C���擪�ɂ���̂ł�������m�F���Ă�������  
-�ȉ��A�I���W�i��  
+DM_Infoのミラーです。（主に自分用）  
+ソースファイルの再利用の条件は必ず各ファイル先頭にあるのでそちらを確認してください  
+以下、オリジナル  
 
-���� TVTest �f�W�I�y�ȏ��\���v���O�C�� ����
+＜＜ TVTest デジオ楽曲情報表示プラグイン ＞＞  
 
-�� ����́A�X�J�p�[!�v���~�A���T�[�r�X�ŕ�������Ă���X�^�[�f�W�I��TVTest
-�Œ������ɁA���̋Ȗ��ƃA�[�e�B�X�g����\������v���O�C���ł��B
+◎ これは、スカパー!プレミアムサービスで放送されているスターデジオをTVTestで聴く時に、その曲名とアーティスト名を表示するプラグインです。  
 
-�� �J���Ɠ���e�X�g�͈ȉ��̊��ł̂ݍs���Ă���A����ȊO�̊��ł̓�
-��͊m�F���Ă��܂���B
-  �� Windows
-    Windows10 Pro x64
-    Windows7 Ultimate x64
-  �� �r���h���f�o�b�O
-    Microsoft Visual Studio Professional 2015
-    Version 14.0.25431.01 Update 3
-    ��VS2017�ł̃r���h�񍐂���
-  �� TVTest
-    Ver0.9.0
-    https://mevius.5ch.net/test/read.cgi/avi/1525789119/430-433
-    �����Ƀf�W�I�Ή��C���B
-    32bit�o�C�i���E64bit�o�C�i���̗����̓�����m�F�B
-    ��TVTest0.10.0x86�ł̓���񍐂���
-  �� ��M�����g
-    JCSAT3/4����̕����g�B
-    �� �f�W�I���ǂ�����TSID=21���ǂ����Ŕ��ʂ��Ă���̂ŁA���E�P�[�u��
-       �ł͏C�����K�v��������܂���B(DMInfo.cpp 278�`281�s)
-    ���v���~�A������TSID=21�œ���񍐂���
+◎ 開発と動作テストは以下の環境でのみ行っており、それ以外の環境での動作は確認していません。  
+  - Windows
+    - Windows10 Pro x64
+    - Windows7 Ultimate x64
+  - ビルド＆デバッグ
+    - Microsoft Visual Studio Professional 2015
+    - Version 14.0.25431.01 Update 3  
+    ＞VS2017でのビルド報告あり  
+  - TVTest  
+    - [Ver0.9.0](https://mevius.5ch.net/test/read.cgi/avi/1525789119/430-433)を元にデジオ対応修正。  
+    - 32bitバイナリ・64bitバイナリの両方の動作を確認。  
+    ＞TVTest0.10.0x86での動作報告あり
+  - 受信放送波
+    - JCSAT3/4からの放送波。
+    - ※ デジオかどうかをTSID=21かどうかで判別しているので、光・ケーブルでは修正が必要かもしれません。(DMInfo.cpp 278～281行)  
+    ＞プレミアム光でTSID=21で動作報告あり
 
-�� �\�[�X�t�@�C���̍ė��p�̏����ɂ��ẮA�e�t�@�C���擪�̃R�����g��
-�Q�Ƃ��Ă��������B(�t�@�C�����ɈقȂ�܂��B)
+◎ ソースファイルの再利用の条件については、各ファイル先頭のコメントを参照してください。(ファイル毎に異なります。)  
 
-�� 2019-04-07����̕ύX�_
-  �� �f�W�I�ȊO�̃`�����l���Ŏ����I�ɔ�\���ɂȂ�@�\�ǉ�
-  �� �o�ߎ��Ԃ�1�b���ɃJ�E���g����悤�@�\���P
-  �� �Ȗ��E�A�[�e�B�X�g���̕\���g��2�s�ɕύX
-  �� �Ȗ��E�A�[�e�B�X�g���̉p�������𔼊p�ɕύX
+◎ 2019-04-07からの変更点  
+   - デジオ以外のチャンネルで自動的に非表示になる機能追加  
+   - 経過時間を1秒毎にカウントするよう機能改善  
+   - 曲名・アーティスト名の表示枠を2行に変更  
+   - 曲名・アーティスト名の英数字等を半角に変更  
 
